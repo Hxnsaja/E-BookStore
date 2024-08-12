@@ -26,31 +26,33 @@ Before you start, make sure you have:
 
 ### Installation
 
+### Steps
+
 1. *Clone the repository*:
     bash
-    git clone https://github.com/Hxnsaja/E-BookStore.git
-    cd online-bookstore
+    git clone https://github.com/Hxnsaja/E-BookStore.git    cd online-bookstore
     
 
-2. *Set up the Frontend*:
+2. *Frontend Setup*:
     bash
     cd client
     npm install
     npm start
     
-    This installs dependencies and starts the React development server.
+    This will install the necessary dependencies and start the React development server.
 
-3. *Set up the Backend*:
+3. *Backend Setup*:
     bash
     cd server
     dotnet restore
     dotnet run
     
-    This restores .NET packages and starts the backend server.
+    This will restore the .NET packages and start the backend server.
 
-4. *Set up the Database*:
-   - Make sure your SQL Server is running.
-   - Update the connection string in appsettings.json (located in the server folder).
+4. *Database Setup*:
+   - Ensure your SQL Server is running.
+   - Update the connection string in the appsettings.json file located in the server directory.
    - Run the database migrations:
      bash
      dotnet ef database update
+     
