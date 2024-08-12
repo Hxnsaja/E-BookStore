@@ -1,52 +1,56 @@
-# E-BookStore
-# Online Bookstore System
+# 📚 Online Bookstore System
 
-This project is an Online Bookstore System designed to facilitate the purchase and sale of books online. The system is built with a React frontend using Tailwind CSS for styling, a C# .NET backend for business logic, and an SQL database for data management.
+Welcome to the Online Bookstore System! This project is designed to make buying and selling books online easy and efficient. Below, you'll find everything you need to get started.
 
-## Features
+## ✨ Features
 
+- *🔐 User Authentication*: login and sign-up.
+- *📚 Book Catalog*: Browse, filter, and sort through a wide range of books.
+- *🛒 Shopping Cart*: Add, remove, and manage books in your cart.
 
-- **Book Catalog**: Display of books with filtering and sorting options.
-- **Shopping Cart**: Add, remove, and update items in the cart.
+## 🛠️ Tech Stack
 
-## Tech Stack
+- *Frontend*: React.js + Tailwind CSS
+- *Backend*: C# .NET Core
+- *Database*: SQL
 
-- **Frontend**: React.js with Tailwind CSS
-- **Backend**: C# .NET Core
-- **Database**: SQL
-
-## Installation
+## 🚀 Getting Started
 
 ### Prerequisites
 
+Before you start, make sure you have:
+
 - [Node.js](https://nodejs.org/) (for frontend)
 - [.NET Core SDK](https://dotnet.microsoft.com/download) (for backend)
-- SQL Server (or any preferred SQL-based database)
+- SQL Server (or your preferred SQL database)
 
- ### Steps
+### Installation
 
-1. **Clone the repository**:
-    ```bash
+1. *Clone the repository*:
+    bash
+    git clone https://github.com/Hxnsaja/E-BookStore.git
+    cd online-bookstore
+    
 
-2. **Frontend Setup**:
-    ```bash
+2. *Set up the Frontend*:
+    bash
     cd client
     npm install
     npm start
-    ```
-    This will install the necessary dependencies and start the React development server.
-3. **Backend Setup**:
-    ```bash
+    
+    This installs dependencies and starts the React development server.
+
+3. *Set up the Backend*:
+    bash
     cd server
     dotnet restore
     dotnet run
-    ```
-    This will restore the .NET packages and start the backend server.
+    
+    This restores .NET packages and starts the backend server.
 
-4. **Database Setup**:
-   - Ensure your SQL Server is running.
-   - Update the connection string in the `appsettings.json` file located in the `server` directory.
+4. *Set up the Database*:
+   - Make sure your SQL Server is running.
+   - Update the connection string in appsettings.json (located in the server folder).
    - Run the database migrations:
-     ```bash
+     bash
      dotnet ef database update
-     ```
